@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22D4FD;
+    --color-hover: #272727;
+
+    --font-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-weight: var(--cor-secundaria);
+
+}
+
+header {
+    padding: 2% 0% 0% 5%;
+}
+
+h1 {
+    color: white;
+    font-family: var(--font-primaria);
+    font-size: 40px;
+}
+
+p{
+    font-family: var(--cor-secundaria);
+    font-size: 40px;
+    text-align: center;
+}
+
+subtitle{
+    font-weight: bold;
+    font-family: var(--font-secundaria);
+    color: var(--cor-terciaria);
+    font-size: 40px;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 15%;
+}
+.coloum{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+}
+
+a:hover {
+    background-color:#272727;
+}
+
+
+
+a{
+    width: 400px;
+    gap: 16px;
+    padding: 21px ;
+    margin: 12px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--font-primaria);
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 16px;
+}
+
+.descricao_trabalho{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.itensCargo{
+    margin: 5%;
+}
+
+.cargo{
+    font-family: var(--font-primaria);
+    font-size: 26px;
+}
+
+.instituição{
+    font-family: var(--font-secundaria);
+    font-size: 26px;
+    font-weight: bold;
+}
