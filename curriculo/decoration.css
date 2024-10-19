@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #f6f6f6;
-    --cor-terciaria: #22D4FD;
+    --cor-primaria: #f0ede7;
+    --cor-secundaria: #3a3132;
+    --cor-terciaria: #1d1718;
     --color-hover: #272727;
 
     --font-primaria: 'Krona One', sans-serif;
@@ -24,29 +24,29 @@ header {
 }
 
 h1 {
-    color: white;
+    color: #3a3132;;
     font-family: var(--font-primaria);
-    font-size: 40px;
+    font-size: 36px;
 }
 
 p{
-    font-family: var(--cor-secundaria);
-    font-size: 40px;
+    font-family: var(--font-secundaria);
+    font-size: 28px;
     text-align: center;
 }
 
-.subtitle{
+subtitle{
     font-weight: bold;
     font-family: var(--font-secundaria);
     color: var(--cor-terciaria);
-    font-size: 40px;
+    font-size: 26px;
 
 }
 
 .row{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 3% 15%;
 }
 .coloum{
@@ -54,10 +54,12 @@ p{
     flex-direction: column;
     width: 700px;
     align-items: center;
+    
 }
 
 a:hover {
-    background-color:#272727;
+    background-color:#4e4e4e;
+    color: var(--cor-primaria);
 }
 
 
@@ -65,7 +67,8 @@ a:hover {
 a{
     width: 400px;
     gap: 16px;
-    padding: 21px ;
+    font-size: 14px;
+    padding: 10px ;
     margin: 12px;
     justify-content: center;
     text-align: center;
@@ -73,14 +76,10 @@ a{
     font-family: var(--font-primaria);
     color: var(--cor-secundaria);
     border: 2px solid var(--cor-terciaria);
-    border-radius: 16px;
+    border-radius: 14px;
 }
 
-.descricao_trabalho{
-    display: flex;
-    flex-direction: row;
 
-}
 
 .itensCargo{
     margin: 0% 5%;
@@ -91,15 +90,16 @@ a{
     font-size: 26px;
 }
 
-.instituição{
+.descricao{
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     margin: 30px 0px;
 }
 
 img{
-    height: 30%;
-    width: 30%;
+    height: 40%;
+    width: 40%;
     border-radius: 16px 16px;
+    object-fit: unset;
 }
