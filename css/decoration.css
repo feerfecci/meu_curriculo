@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    padding: 2% 0% 0% 5%;
+    /* padding: 2% 0% 0% 5%; */
 }
 
 h1 {
@@ -48,7 +48,7 @@ p {
     text-align: center;
 }
 
-subtitle {
+.subtitle {
     font-weight: bold;
     color: var(--cor-terciaria);
     font-size: var(--font-size-texto)
@@ -71,14 +71,14 @@ subtitle {
 
 }
 
-a:hover {
-    background-color: #4e4e4e;
+.button:hover {
+    background-color:var( --color-hover);
     color: var(--cor-primaria);
 }
 
 
 
-a {
+.button {
     width: 70%;
     gap: 16px;
     font-size: var(--font-size-botao);
@@ -98,6 +98,7 @@ a {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 30px;
 }
 
 
@@ -108,6 +109,7 @@ a {
     align-content: center;
     width: 100%;
 }
+
 
 .itens-formacao {
     margin: 0% 5%;
@@ -142,6 +144,7 @@ a {
 }
 
 .border-card {
+
 
     border: var(--border-button);
     border-radius: var(--borda-card);
@@ -214,6 +217,7 @@ a {
 
 @media (max-width: 1050px) {
     body {
+    body {
         align-items: center;
     }
 
@@ -222,7 +226,10 @@ a {
         width: 100%;
         justify-content: center;
 
+
     }
+
+    .row {
 
     .row {
         flex-direction: column-reverse;
@@ -230,16 +237,24 @@ a {
     }
 
     .coloum {
+    .coloum {
         margin: 0;
     }
 
+    p {
     p {
         width: 90%;
     }
 
     a {
+
+    a {
         width: 90%;
     }
+
+    .aba-home {
+        gap: 50px;
+        justify-content: center;
 
     .aba-home {
         gap: 50px;
