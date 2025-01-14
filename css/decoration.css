@@ -5,7 +5,7 @@
     --cor-primaria: #f0ede7;
     --cor-secundaria: #3a3132;
     --cor-terciaria: #1d1718;
-    --color-hover: #272727;
+    --color-hover: #4e4e4e;
 
     --font-primaria: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
@@ -68,14 +68,14 @@ p {
 
 }
 
-a:hover {
-    background-color: #4e4e4e;
+.button:hover {
+    background-color:var( --color-hover);
     color: var(--cor-primaria);
 }
 
 
 
-a {
+.button {
     width: 70%;
     gap: 16px;
     font-size: var(--font-size-botao);
