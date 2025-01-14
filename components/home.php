@@ -1,16 +1,16 @@
-
-    <section class="coloum" style="gap: 10px">
+<section class="row conteudo aba-home " style="gap: 10px; align-items: center;">
+    <div style="justify-items: center;">
         <h1>
             Fernando Amorim Fecci
         </h1>
-        <subtitle>
+        <div class="subtitle">
             Desenvolvedor júnior
-        </subtitle>
+        </div class="subtitle">
         <p> Cientista da computação em formação, buscando ganhar experiência em programação front-end de APPs e
             sites. Aqui
             você poderá ver um pouco mais sobre mim e formas de contato. </p>
         <section class="section-a">
-            <subtitle>Minha redes:</subtitle>
+            <div class="subtitle">Minha redes:</div>
             <a href="http://github.com/feerfecci">
                 GitHub
             </a>
@@ -18,5 +18,27 @@
                 Linkedin
             </a>
         </section>
-    </section>
+
+    </div>
     <img class="imagem-perfil" src="./assets/perfil.jpg" alt="">
+</section>
+
+<section class="row row-projeto"  >
+    <div class="projeto">
+        <div class="acessarprojeto">
+
+        </div>
+    </div>
+    <div class="projeto">
+        <div class="acessarprojeto">
+        <i class="bi bi-plus-circle-dotted" style="font-size: 30px;"></i>
+        </div>
+
+    </div>
+    <div class="projeto">
+        <div class="acessarprojeto">
+
+        </div>
+
+    </div>
+</section>

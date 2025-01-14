@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
     <link rel="stylesheet" href="css/decoration.css">
+    <link rel="stylesheet" href="css/topbar.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <header>
 
@@ -27,13 +29,12 @@
 
     <body>
         <div class=".tab-control">
-            <ul class="abas">
-                <li class="aba selected" id="aba-home">Home</li>
-                <li class="aba" id="aba-formacoes">Formações</li>
-                <li class="aba" id="aba-experiencias">Expêriencias</li>
-            </ul>
 
-            <section class=" row conteudo aba-home " style="">
+            <?php
+            include 'header.php'
+            ?>
+
+            <section class=" column " style="">
                 <?php include 'components/home.php' ?>
             </section>
 
