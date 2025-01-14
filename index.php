@@ -11,12 +11,6 @@
     <link rel="stylesheet" href="css/topbar.css">
     <link rel="stylesheet" href="css/home.css">
 </head>
-<header>
-
-    <a href="index.php">Home</a>
-    <a href="formacoes.php">Formações</a>
-    <a href="experiencias.php">Expêriencias</a>
-</header>
 
 <style>
     .selected {
@@ -31,7 +25,7 @@
         <div class=".tab-control">
 
             <?php
-            include 'header.php'
+            include 'components/header.php'
             ?>
 
             <section class=" column " style="">
@@ -39,11 +33,11 @@
             </section>
 
             <section class="conteudo aba-formacoes">
-                <?php include 'formacoes.php' ?>
+                <?php include 'components/formacoes.php' ?>
             </section>
 
             <section class="conteudo aba-experiencias">
-                <?php include 'experiencias.php' ?>
+                <?php include 'components/experiencias.php' ?>
             </section>
 
 
