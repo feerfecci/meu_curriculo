@@ -1,4 +1,3 @@
-
 .imagem-perfil {
     height: 30%;
     width: 30%;
@@ -12,26 +11,33 @@
 
 }
 
-.row-projeto{
-    justify-content: space-around  !important;
+.row-projeto {
+    justify-content: space-around !important;
 }
 
-.projeto{
+.projeto {
     width: 500px;
-    height: 350px;
-    background-color: red;
+    height: 400px;
+    position: relative;
     border-radius: var(--borda-card);
     align-content: end;
     display: block;
-    /* background-image: url('assets/perfil.jpg'); */
+    cursor: pointer;
 }
 
-.projeto .acessarprojeto{
+
+.projeto .acessarprojeto {
     border-bottom-left-radius: var(--borda-card);
     border-bottom-right-radius: var(--borda-card);
     width: 100%;
     height: 20%;
-    background-color: rgba(117, 117, 117, 0.323);
+    background-color: rgba(117, 117, 117, 0.632);
     justify-content: center;
     align-content: center;
+    /* position: fixed; */
+    position: absolute; /* Permite posicionar sobre o elemento pai (.projeto relative) */
+    top: 90%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%);  /* Ajusta o alinhamento para o centro */
+    z-index: 10; /* Garante que fique acima da imagem */
 }
