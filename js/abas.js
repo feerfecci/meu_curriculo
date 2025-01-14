@@ -6,7 +6,7 @@ $(function(){
     $(".aba").on("click",function (){
         let idAba = $(this).attr("id");
         console.log(idAba);
-        $(this).parent().find(".selected").removeClass("selected");
+        $(".abas").find(".selected").removeClass("selected");
         $(this).addClass("selected");
         $(".conteudo").hide();
         $("."+idAba).show();

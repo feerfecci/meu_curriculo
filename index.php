@@ -11,9 +11,9 @@
 </head>
 <header>
 
-    <!-- <a href="index.php">Home</a>
+    <a href="index.php">Home</a>
     <a href="formacoes.php">Formações</a>
-    <a href="experiencias.php">Expêriencias</a> -->
+    <a href="experiencias.php">Expêriencias</a>
 </header>
 
 <style>
