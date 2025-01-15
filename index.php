@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/decoration.css">
     <link rel="stylesheet" href="css/topbar.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/formacoes.css">
+    <link rel="stylesheet" href="css/experiencias.css">
 </head>
 
 <style>
@@ -49,5 +51,6 @@
 
 </footer>
 <script src="js/abas.js"></script>
+<script src="js/expensable.js"></script>
 
 </html>

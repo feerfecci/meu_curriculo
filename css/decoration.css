@@ -71,8 +71,12 @@ p {
 
 }
 
+.conteudo{
+    margin-top: 90px;
+}
+
 .button:hover {
-    background-color:var( --color-hover);
+    background-color: var(--color-hover);
     color: var(--cor-primaria);
 }
 
@@ -103,21 +107,6 @@ p {
 
 
 
-.itens-cargo {
-    margin: 0% 5%;
-    height: 100%;
-    align-content: center;
-    width: 100%;
-}
-
-
-.itens-formacao {
-    margin: 0% 5%;
-    height: 300px;
-    align-content: center;
-    width: 100%;
-}
-
 .cargo {
     font-family: var(--font-primaria);
     font-size: var(--font-size-texto);
@@ -130,63 +119,12 @@ p {
     margin: 30px 0px;
 }
 
-.imagem-perfil {
-    height: 30%;
-    width: 30%;
-    border-radius: var(--borda-card);
-    object-fit: unset;
-}
-
-.conteiner-image {
-    height: 10%;
-    width: 10%;
-
-}
-
 .border-card {
-
-
     border: var(--border-button);
     border-radius: var(--borda-card);
     padding: 20px;
 }
 
-
-.abas {
-    list-style-type: none;
-    display: flex;
-    justify-content: start;
-    gap: 10px;
-    margin: 4px;
-}
-
-.aba:hover {
-    background-color: #4e4e4e;
-    color: var(--cor-primaria);
-}
-
-
-
-.aba {
-    /* width: 100px; */
-    gap: 16px;
-    font-size: var(--font-size-botao);
-    padding: 10px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    text-decoration: none;
-    font-family: var(--font-primaria);
-    color: var(--cor-secundaria);
-    cursor: pointer;
-    border: var(--border-button);
-    border-radius: 14px;
-}
-
-.aba-home {
-    gap: 50px;
-    align-items: start;
-}
 
 .habilidades-section {
     margin: 40px 0px;
@@ -217,7 +155,6 @@ p {
 
 @media (max-width: 1050px) {
     body {
-    body {
         align-items: center;
     }
 
@@ -229,7 +166,6 @@ p {
 
     }
 
-    .row {
 
     .row {
         flex-direction: column-reverse;
@@ -237,16 +173,12 @@ p {
     }
 
     .coloum {
-    .coloum {
         margin: 0;
     }
 
     p {
-    p {
         width: 90%;
     }
-
-    a {
 
     a {
         width: 90%;
@@ -255,6 +187,7 @@ p {
     .aba-home {
         gap: 50px;
         justify-content: center;
+    }
 
     .aba-home {
         gap: 50px;

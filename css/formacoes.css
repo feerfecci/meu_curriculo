@@ -1,0 +1,15 @@
+.lista-materias {
+    /* list-style-type: none; */
+    width: 90%;
+}
+
+.lista-materias li {
+    margin-bottom: 20px;
+}
+
+.itens-formacao {
+    margin: 0% 5%;
+    height: 250px;
+    align-content: center;
+    width: 100%;
+}
