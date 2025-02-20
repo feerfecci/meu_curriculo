@@ -2,16 +2,11 @@
 <html lang="en">
 
 <head>
-    <script src="js/jquery-3.7.1.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
-    <link rel="stylesheet" href="css/decoration.css">
-    <link rel="stylesheet" href="css/topbar.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/formacoes.css">
-    <link rel="stylesheet" href="css/experiencias.css">
+    <link rel="stylesheet" href="css/consts.css">
 </head>
 
 <style>
@@ -24,13 +19,12 @@
 <main>
 
     <body>
-        <div class=".tab-control">
-
-            <?php
-            include 'components/header.php'
+        <?php
+        include 'components/header.php'
             ?>
 
-            <section class=" column " style="">
+        <div class="tab-control">
+            <section class="conteudo aba-home column" style="">
                 <?php include 'components/home.php' ?>
             </section>
 
@@ -38,8 +32,12 @@
                 <?php include 'components/formacoes.php' ?>
             </section>
 
-            <section class="conteudo aba-experiencias">
+            <section class="conteudo aba-experiencias column">
                 <?php include 'components/experiencias.php' ?>
+            </section>
+
+            <section class="conteudo aba-read-me column">
+                <?php include 'components/readMe.php' ?>
             </section>
 
 
@@ -47,9 +45,7 @@
     </body>
 
 </main>
-<footer>
-
-</footer>
+<script src="js/jquery-3.7.1.min.js"></script>
 <script src="js/abas.js"></script>
 <script src="js/expensable.js"></script>
 

@@ -1,4 +1,4 @@
-
+/* 
 .abas {
     list-style-type: none;
     display: flex;
@@ -27,7 +27,7 @@
 
     border: var(--border-button);
     border-radius: 14px;
-}
+} */
 
 .aba-home {
     gap: 50px;
@@ -74,4 +74,10 @@
     border: 1px solid var(--cor-primaria);
     border-radius: 14px;
     background-color: var(--cor-primaria);
+}
+
+@media (max-width: 1050px) {
+    .topbar .abas{
+        margin-left: -25px;
+    }
 }

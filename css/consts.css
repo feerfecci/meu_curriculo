@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import "topbar.css";
+@import "home.css";
+@import "formacoes.css";
+@import "experiencias.css";
+@import "footer.css";
+
+:root {
+    --cor-primaria: #f0ede7;
+    --cor-secundaria: #3a3132;
+    --cor-terciaria: #1d1718;
+    --cor-borda: #83838362;
+    --color-hover: #272727;
+
+    --font-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+
+    --font-size-texto: 22px;
+    --font-size-subtitulo: 1em;
+    --font-size-titulo: 1.70em;
+    --font-size-botao: 0.80em;
+
+    --borda-card: 16px;
+
+    --border-button: 1px solid var(--cor-borda);
+
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-weight: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    margin: 0;
+
+}
+
+/* header {
+    /* padding: 2% 0% 0% 5%; 
+} */
+
+h1 {
+    color: #3a3132;
+    text-align: center;
+    font-family: var(--font-primaria);
+    font-size: var(--font-size-titulo);
+}
+
+p {
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: var(--cor-terciaria);
+    font-size: var(--font-size-texto)
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.coloum {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.conteudo {
+    margin-top: 90px;
+}
+
+.cargo {
+    font-family: var(--font-primaria);
+    font-size: var(--font-size-texto);
+}
+
+.descricao {
+    font-family: var(--font-secundaria);
+    font-size: var(--font-size-subtitulo);
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+.border-card {
+    border: var(--border-button);
+    border-radius: var(--borda-card);
+    padding: 20px;
+}
+
+
+.habilidades-section {
+    margin: 40px 0px;
+    justify-items: center;
+}
+
+.habilidades-section ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+}
+
+.habilidades-section li {
+    gap: 16px;
+    font-size: var(--font-size-botao);
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--font-primaria);
+    color: var(--cor-secundaria);
+    border: var(--border-button);
+    border-radius: 14px;
+}
+
+@media (max-width: 1050px) {
+    body {
+        align-items: center;
+    }
+
+    header {
+        padding: 30px 0px 0px 10px;
+        width: 100%;
+        justify-content: center;
+
+
+    }
+
+
+    .row {
+        flex-direction: column-reverse;
+        margin: 0px;
+    }
+
+    .coloum {
+        margin: 0;
+    }
+
+    p {
+        width: 90%;
+    }
+
+    a {
+        width: 90%;
+    }
+}

@@ -1,6 +1,16 @@
-<h1 class="row">
-    Minhas Formações
-</h1>
+<section class="titulo-icone">
+    <h1>
+        Minhas Formações
+    </h1>
+    <p class="subtitle">
+        Por aqui encontrará minhas formações e cursos que completei
+    </p>
+    <div class="div-absolute">
+        <img src="/assets/icon-formacao.png" alt="">
+    </div>
+</section>
+
+
 <div class="row">
     <section class="itens-formacao border-card" style="height: 250px;">
         <p class="cargo">
@@ -9,10 +19,10 @@
         <p class="subtitle">
             Cursando (3/8)
         </p>
-        
+
         <ul class="lista-materias">
 
-            <li >FMU - Previsão de conclusão em dezembro/2028;</li>
+            <li>FMU - Previsão de conclusão em dezembro/2028;</li>
         </ul>
     </section>
 
@@ -25,7 +35,7 @@
         </p>
         <ul class="lista-materias">
 
-            <li >Etec Parque Belém - Conclusão em julho 2016;</li>
+            <li>Etec Parque Belém - Conclusão em julho 2016;</li>
         </ul>
     </section>
 </div>
@@ -56,16 +66,16 @@
             PHP - Udemy
         </p>
         <ul class="lista-materias">
-            <li >
+            <li>
                 Operações com arrays
             </li>
-            <li >
+            <li>
                 Superglobal $_GET
             </li>
-            <li >
+            <li>
                 Formulários
             </li>
-            <li >
+            <li>
                 Consulta ao banco de dados
             </li>
         </ul>
@@ -77,13 +87,13 @@
             Flutter - Alura
         </p>
         <ul class="lista-materias">
-            <li >
+            <li>
                 Flutter: Widgets, Stateless, Stateful, Imagens e Animações
             </li>
-            <li >
+            <li>
                 Dart: criando e manipulando variáveis e listas
             </li>
-            <li >
+            <li>
                 Dart: entendendo a Orientação a Objetos
             </li>
         </ul>
@@ -94,13 +104,13 @@
             HTML/CSS - Alura
         </p>
         <ul class="lista-materias">
-            <li >
+            <li>
                 Cabeçalho, footer e variáveis CSS
             </li>
-            <li >
+            <li>
                 Classes, posicionamento e Flexbox
             </li>
-            <li >
+            <li>
                 Ambientes de desenvolvimento, estrutura de arquivos e tags
             </li>
         </ul>

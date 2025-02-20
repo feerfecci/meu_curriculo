@@ -1,6 +1,14 @@
-<h1 class="row">
-    Minhas Experiências
-</h1>
+<section class="titulo-icone">
+    <h1>
+        Minhas Experiências
+    </h1>
+    <p class="subtitle" style="">
+        Aqui está um pouco das empresa que trabalhei
+    </p>
+    <div class="div-absolute" style="    top: 7%;">
+        <img src="/assets/icone-programador.png" alt="">
+    </div>
+</section>
 <div class="row">
 
     <div class="coloum " style="align-items: center; width: 80%; ">
@@ -29,6 +37,7 @@
                 </ul>
             </div>
         </section>
+        
         <section class="itens-cargo border-card">
 
             <button class="acordeao">

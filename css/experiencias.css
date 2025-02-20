@@ -3,6 +3,7 @@
     /* height: 100%; */
     align-content: center;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .lista-funcoes {
@@ -23,26 +24,27 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+    align-items: center;
     /* height: 60px; */
 }
-
 .acordeao:hover {
-    background-color: #7474749f;
+    background-color: #74747452;
+    border-radius: var(--borda-card);
 }
 
-.acordeao:after{
+.acordeao:before{
     content:'\25BC'; /* Sinal de "+" */
     font-size: 20px;
     float: left;
-    align-items: center;
+    margin-top: 50px;
 
 }
-.accordion .active:after {
-    content:'\25BC'; 
+.acordeao.active:before {
+    content:'\25B2'; 
 }
 
 .painel {
-    display: none;
+    display: none; 
     overflow: hidden;
 }
 
