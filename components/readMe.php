@@ -9,7 +9,7 @@
     Este é o meu portfólio pessoal, onde apresento minhas formações, experiências profissionais e projetos desenvolvidos. O objetivo deste site é demonstrar algumas das minhas habilidades em desenvolvimento web e tecnologias que domino.
     </div>
     <div class="div-absolute" style="    top: 7%;">
-        <img src="./assets/icone-programador.png" alt="">
+        <img src="./assets/icones/icone-readme.png" alt="">
     </div>
 </section>
 
@@ -36,16 +36,16 @@
 
             <ul class="lista-materias" style="width: 40%;">
 
-                <li>│── /assets</li>
-                <li>│── /components </li>
-                <li>│── /css </li>
-                <li>│── /js </li>
-                <li>│── index </li>
+                <li>│─ /assets</li>
+                <li>│─ /components </li>
+                <li>│─ /css </li>
+                <li>│─ /js </li>
+                <li>│─ index </li>
             </ul>
             <ul class="lista-materias" style="width: 100%; list-style-type: none;">
 
-                <li><span style="margin-left: 20%;"># Imagens e ícones utilizados no site</span></li>
-                <li><span style="margin-left: 20%;"># Componentes reutilizáveis do site</span></li>
+                <li><span style="margin-left: 20%;"># Imagens e ícones utilizados</span></li>
+                <li><span style="margin-left: 20%;"># Componentes reutilizáveis</span></li>
                 <li><span style="margin-left: 20%;"># Estilos do site</span>
                 </li>
                 <li><span style="margin-left: 20%;"># Scripts e funcionalidades</span> </li>
