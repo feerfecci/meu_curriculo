@@ -16,8 +16,8 @@
     --font-primaria: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
 
-    --font-size-texto: 22px;
-    --font-size-subtitulo: 1em;
+    --font-size-texto: 24px;
+    --font-size-subtitulo: 18px;
     --font-size-titulo: 1.70em;
     --font-size-botao: 0.80em;
 
@@ -49,14 +49,14 @@ h1 {
 
 p {
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: var(--font-size-texto);
     text-align: center;
 }
 
 .subtitle {
     font-weight: bold;
     color: var(--cor-terciaria);
-    font-size: var(--font-size-texto)
+    font-size: var(--font-size-subtitulo)
 }
 
 .row {
@@ -82,7 +82,7 @@ p {
 
 .cargo {
     font-family: var(--font-primaria);
-    font-size: var(--font-size-texto);
+    font-size: var(--font-size-subtitulo);
 }
 
 .descricao {
@@ -127,6 +127,14 @@ p {
 }
 
 @media (max-width: 1050px) {
+
+    :root {
+        --font-size-texto: 20px;
+        --font-size-subtitulo: 16px;
+        --font-size-titulo: 1.50em;
+        --font-size-botao: 0.60em;
+    }
+
     body {
         align-items: center;
     }
@@ -138,7 +146,6 @@ p {
 
 
     }
-
 
     .row {
         flex-direction: column-reverse;
@@ -155,5 +162,19 @@ p {
 
     a {
         width: 90%;
+    }
+
+    h2{
+        font-size: var(--font-size-subtitulo);
+    }
+}
+
+@media (max-width: 600px) {
+
+    :root {
+        --font-size-texto: 18px;
+        --font-size-subtitulo: 14px;
+        --font-size-titulo: 1em;
+        --font-size-botao: 0.50em;
     }
 }

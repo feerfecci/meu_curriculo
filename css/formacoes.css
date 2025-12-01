@@ -8,8 +8,7 @@
 }
 
 .itens-formacao {
-    margin: 0% 5%;
-    height: 250px;
+    margin: 0% 5%;    height: fit-content;
     align-content: center;
     width: 100%;
 }

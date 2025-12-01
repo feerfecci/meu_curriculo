@@ -3,7 +3,8 @@
     justify-content: center;
 }
 
-.aba-home .row {
+.aba-home .conteiner-projetos {
+    display: flex;
     gap: 10px;
     align-items: center;
     justify-content: space-evenly;
@@ -50,31 +51,28 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: var(--font-primaria);
+    font-size: var(--font-size-botao);
     font-family: var(--font-primaria);
     color: var(--cor-secundaria);
-    text-decoration: none ;
+    text-decoration: none;
     border: var(--border-button);
     border-radius: 14px;
     background-color: var(--color-hover);
-    color: white ;
+    color: white;
 
 }
 
 .minhas-redes .button:hover {
     background-color: rgba(20, 20, 20, 0.479);
-    color: black ;
+    color: black;
 }
 
 
 .minhas-redes .button img {}
 
-.minhas-redes .button a {
-}
+.minhas-redes .button a {}
 
-.minhas-redes .button a:hover {
-
-}
+.minhas-redes .button a:hover {}
 
 .titulo-icone {
     width: 100%;
@@ -107,8 +105,8 @@
 }
 
 .projeto {
-    width: 400px;
-    height: 250px;
+    width: 270px;
+    height: 200px;
     position: relative;
     border-radius: var(--borda-card);
     background-color: var(--color-hover);
@@ -138,8 +136,8 @@
 }
 
 .projeto:hover {
-    width: 405px;
-    height: 255px;
+    width: 280px;
+    height: 210px;
     /* width: 70%; */
     gap: 0px;
     /* font-size: var(--font-size-botao); */
@@ -182,7 +180,7 @@
         justify-content: center;
     }
 
-    .aba-home .row {
+    .aba-home .conteiner-projetos {
         gap: 25px;
         align-items: center;
         justify-content: space-evenly;
@@ -197,13 +195,22 @@
     }
 
     .imagem-perfil {
-
-        height: 60%;
-        width: 60%;
+       width: 25%;
     }
 
     .minhas-redes {
         margin-top: 30px;
+    }
+    
+    .button{
+        padding: 6px;
+            width: 50%;
+    }
+
+
+    .projeto {
+        width: 260px;
+        height: 180px;
     }
 
     #projetos {
@@ -211,4 +218,23 @@
     }
 
 
+
+}
+
+
+@media (max-width: 600px) {
+
+
+    .aba-home .conteiner-projetos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* ou 2 colunas se quiser */
+        gap: 20px;
+        justify-items: center;
+    }
+
+    .projeto {
+        width: 145px;
+        height: 106px;
+    }
 }

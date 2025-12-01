@@ -6,7 +6,7 @@
         Por aqui encontrará minhas formações e cursos que completei
     </p>
     <div class="div-absolute">
-        <img src="/assets/icon-formacao.png" alt="">
+        <img src="./assets/icones/icone-formacao.png" alt="">
     </div>
 </section>
 
@@ -17,18 +17,18 @@
             Ciência da Computação
         </p>
         <p class="subtitle">
-            Cursando (3/8)
+            Cursando (4/8)
         </p>
 
         <ul class="lista-materias">
 
-            <li>FMU - Previsão de conclusão em dezembro/2028;</li>
+            <li>FMU - Previsão de conclusão em dezembro/2027;</li>
         </ul>
     </section>
 
     <section class="itens-formacao border-card" style="align-self: flex-start; height: 250px;">
         <p class="cargo">
-            Técnico Química | Finalizado
+            Técnico Química
         </p>
         <p class="subtitle">
             Concluído
@@ -45,25 +45,87 @@
 <div class="row ">
     <div class="itens-formacao border-card">
         <p class="cargo ">
-            Laravel - Udemy
+            Go - Udemy
+        </p>
+        <p class="subtitle">
+            Concluído em dez/2025
         </p>
         <ul class="lista-materias">
             <li>
-                Laragon: configuração para acesso à porta do banco de dados
+                Ponteiros
             </li>
             <li>
-                Padrão MVC
+                Chi REST API
             </li>
             <li>
-                Lidando com Routes, View e Componentes
+                PostgreSQL
+            </li>
+            <li>
+                Keycloak
+            </li>
+            <li>
+                Provedor de Identidade
             </li>
 
         </ul>
     </div>
+    <div class="itens-formacao border-card">
+        <p class="cargo ">
+            Laravel - Udemy
+        </p>
+        <p class="subtitle">
+            Concluído em mar/2025
+        </p>
+        <ul class="lista-materias">
+            <li>
+                Blade Technology
+            </li>
+            <li>
+                Model-View-Controller (MVC)
+            </li>
+            <li>
+                API REST
+            </li>
+            <li>
+                Livewire
+            </li>
+            <li>
+                MySQL
+            </li>
 
+        </ul>
+    </div>
+</div>
+<div class="row ">
+    <div class="itens-formacao border-card">
+        <p class="cargo ">
+            Java 17 | SpringBoot - Udemy
+        </p>
+        <p class="subtitle">
+            Concluído em dez/2024
+        </p>
+        <ul class="lista-materias">
+            <li>
+                JPA (Java Persistence API)
+            </li>
+            <li>
+                Spring Boot
+            </li>
+            <li>
+                Orientação a Objetos
+            </li>
+            <li>
+                Clean Coding
+            </li>
+
+        </ul>
+    </div>
     <div class=" itens-formacao border-card">
         <p class="cargo ">
             PHP - Udemy
+        </p>
+        <p class="subtitle">
+            Concluído em nov/2024
         </p>
         <ul class="lista-materias">
             <li>
@@ -82,26 +144,35 @@
     </div>
 </div>
 <div class="row ">
-    <div class="itens-formacao border-card">
+
+
+    <div class=" itens-formacao border-card">
         <p class="cargo ">
-            Flutter - Alura
+            Javascript, JQuery, Ajax - Udemy
+        </p>
+        <p class="subtitle">
+            Concluído em nov/2024
         </p>
         <ul class="lista-materias">
             <li>
-                Flutter: Widgets, Stateless, Stateful, Imagens e Animações
+                JavaScript
             </li>
             <li>
-                Dart: criando e manipulando variáveis e listas
+                JQuery
             </li>
             <li>
-                Dart: entendendo a Orientação a Objetos
+                AJAX
             </li>
         </ul>
     </div>
 
+    
     <div class=" itens-formacao border-card">
         <p class="cargo ">
             HTML/CSS - Alura
+        </p>
+        <p class="subtitle">
+            Concluído em mar/2023
         </p>
         <ul class="lista-materias">
             <li>
@@ -112,6 +183,27 @@
             </li>
             <li>
                 Ambientes de desenvolvimento, estrutura de arquivos e tags
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="row ">
+    <div class="itens-formacao border-card">
+        <p class="cargo ">
+            Flutter - Alura
+        </p>
+        <p class="subtitle">
+            Concluído em abr/2022
+        </p>
+        <ul class="lista-materias">
+            <li>
+                Flutter: Widgets, Stateless, Stateful, Imagens e Animações
+            </li>
+            <li>
+                Dart: criando e manipulando variáveis e listas
+            </li>
+            <li>
+                Dart: entendendo a Orientação a Objetos
             </li>
         </ul>
     </div>

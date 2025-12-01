@@ -6,7 +6,7 @@
         Aqui está um pouco das empresa que trabalhei
     </p>
     <div class="div-absolute" style="    top: 7%;">
-        <img src="/assets/icone-programador.png" alt="">
+        <img src="./assets/icone-programador.png" alt="">
     </div>
 </section>
 <div class="row">

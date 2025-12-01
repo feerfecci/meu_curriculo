@@ -9,7 +9,7 @@
     Este é o meu portfólio pessoal, onde apresento minhas formações, experiências profissionais e projetos desenvolvidos. O objetivo deste site é demonstrar algumas das minhas habilidades em desenvolvimento web e tecnologias que domino.
     </div>
     <div class="div-absolute" style="    top: 7%;">
-        <img src="/assets/icone-programador.png" alt="">
+        <img src="./assets/icone-programador.png" alt="">
     </div>
 </section>
 

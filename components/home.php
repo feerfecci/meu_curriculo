@@ -15,11 +15,11 @@
             <div class="subtitle">Minha redes:</div>
             <a href="http://github.com/feerfecci" class="button">
 
-                <img src="/assets/github.png"></img>
+                <img src="./assets/icones/github.png"></img>
                 GitHub
             </a>
             <a class="button" href="https://www.linkedin.com/in/fernando-fecci-71a047193/">
-                <img src="/assets/linkedin.png"></img>
+                <img src="./assets/icones/linkedin.png"></img>
                 Linkedin
             </a>
         </section>
@@ -30,12 +30,13 @@
 <h1 style="" id="projetos">
     Meus Projetos
 </h1>
-<section class="row row-projeto">
+<section class="conteiner-projetos row-projeto">
 
     <div class="projeto">
         <a href="https://www.claulimp.com/" target="_blank">
 
-            <img class="imagem-perfil" src="./assets/claulimp.png" alt="imagem-perfil" style="width: 100%; height: 100%;">
+            <img class="imagem-perfil" src="./assets/logos
+            /claulimp.png" alt="imagem-perfil" style="width: 100%; height: 100%;">
 
             <div class="acessarprojeto">www.claulimp.com
             </div>
@@ -44,14 +45,26 @@
     <div class="projeto">
         <a href="https://www.techfecci.com.br/" target="_blank" style="justify-content: center;" alt="claulimp_logo">
 
-            <img class="imagem-perfil" src="./assets/tech_fecci.png" alt="tech_fecci_logo" style="width: 100%; height: 100%; ">
+            <img class="imagem-perfil" src="./assets/logos
+            /tech_fecci.png" alt="tech_fecci_logo" style="width: 100%; height: 100%; ">
 
             <div class="acessarprojeto">www.techfecci.com.br
             </div>
         </a>
     </div>
     <div class="projeto">
-        <!-- <img class="imagem-perfil" src="./assets/perfil.jpg" alt="" style="width: 100%; height: 100%;"> -->
+        <a href="https://lightgreen-spider-784714.hostingersite.com/" target="_blank" style="justify-content: center;" alt="gabs_logo">
+
+            <img class="imagem-perfil" src="./assets/logos
+            /gabs_logo.png" alt="gabs_logo" style="width: 100%; height: 100%; ">
+
+            <div class="acessarprojeto">www.lightgreen-spider-784714.hostingersite.com
+            </div>
+        </a>
+    </div>
+    <div class="projeto">
+        <!-- <img class="imagem-perfil" src="./assets/logos
+         /perfil.jpg" alt="" style="width: 100%; height: 100%;"> -->
         <h2 style="width: 100%; text-align: center;">
             Em Breve!
 
